@@ -10,7 +10,5 @@ public class CompoundAndModulo {
         System.out.println("After multiplicatioin: "+x);
         x %=y;
         System.out.println("Remainder: "+x);
-
-
     }
 }
