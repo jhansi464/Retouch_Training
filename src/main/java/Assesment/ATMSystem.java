@@ -30,7 +30,7 @@ public class ATMSystem {
                     if(deposit >0){
                         balance+=deposit;
                         System.out.println(deposit);
-                        System.out.println(balance);
+                        System.out.println("Balance:" +balance);
                     }
                     else{
                         System.out.println("Invalid Deposit");
@@ -44,7 +44,7 @@ public class ATMSystem {
                     }
                     else if(withdraw>balance){
                         System.out.println("Insufficent funds");
-                        System.out.println(balance);
+                        System.out.println("Balance" +balance);
                     }
                     else{
                         balance-=withdraw;
